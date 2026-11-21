@@ -1,0 +1,8 @@
+RUMBORIA - portada corregida
+
+1. Copia index.html, index.css, index.js y la carpeta fotos/ juntos.
+2. Abre index.html en Firefox.
+3. Esta entrega modifica SOLO la portada; los enlaces a otras páginas requieren tus archivos existentes.
+4. Las fotografías son imágenes ilustrativas generadas para esta maqueta, no fotografías documentales.
+5. El logotipo es una versión con fondo eliminado del archivo recuperado; revisa el acabado antes de publicar.
+6. No sobrescribas tu proyecto sin guardar copia.

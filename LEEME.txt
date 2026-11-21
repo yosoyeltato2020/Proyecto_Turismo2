@@ -1,17 +1,8 @@
-WEB ISMAEL LÓPEZ — FORMULARIO DE CONTACTO
+RUMBORIA - portada corregida
 
-Se han actualizado exclusivamente contacto.html, contacto.css y contacto.js.
-El resto de páginas se conserva igual que en la estructura simple.
-
-PARA RECIBIR MENSAJES EN ilopez.infor@gmail.com:
-1. Abre contacto.html con conexión a internet.
-2. Rellena el formulario y envía un mensaje de prueba.
-3. FormSubmit enviará un mensaje de activación al correo indicado.
-4. Abre ese correo y confirma la activación. Revisa también Spam.
-5. Envía un segundo mensaje de prueba y verifica que llega.
-
-El servicio de terceros es FormSubmit (https://formsubmit.co/).
-No requiere servidor ni claves en JavaScript. El envío requiere internet.
-El formulario puede mostrar una comprobación antispam y una página de confirmación externa.
-
-AVISO: Antes de publicar la web definitivamente, incorpora una política de privacidad adecuada al tratamiento de datos y al proveedor de formularios elegido. El texto de consentimiento actual es orientativo, no sustituye un aviso legal completo.
+1. Copia index.html, index.css, index.js y la carpeta fotos/ juntos.
+2. Abre index.html en Firefox.
+3. Esta entrega modifica SOLO la portada; los enlaces a otras páginas requieren tus archivos existentes.
+4. Las fotografías son imágenes ilustrativas generadas para esta maqueta, no fotografías documentales.
+5. El logotipo es una versión con fondo eliminado del archivo recuperado; revisa el acabado antes de publicar.
+6. No sobrescribas tu proyecto sin guardar copia.
