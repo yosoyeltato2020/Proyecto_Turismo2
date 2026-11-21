@@ -1,262 +1,824 @@
 <!DOCTYPE html>
 <html lang="es">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1" name="viewport"/>
-  <title>
-   Viajes y turismo | Ismael L&oacute;pez
-  </title>
-  <link href="fotos/favicon.svg" rel="icon" type="image/svg+xml"/>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;family=Montserrat:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
-  <meta content="Ideas sobre destinos, viajes culturales, turismo de proximidad, bienestar y experiencias tur&iacute;sticas." name="description"/>
-  <link href="viajes.css" rel="stylesheet"/>
-  <script defer="True" src="viajes.js">
-  </script>
- </head>
- <body>
-  <header class="site-header">
-   <div class="container header-inner">
-    <a aria-label="Ismael L&oacute;pez, inicio" class="brand" href="index.html">
-     <img alt="Ismael L&oacute;pez &middot; Travel &middot; Events &middot; Catering" class="brand-logo" height="116" src="fotos/logo.png" width="350"/>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Viajes y turismo | RUMBORIA</title>
+
+    <meta
+        name="description"
+        content="Descubre Castilla-La Mancha, Guadalajara y otros destinos con RUMBORIA."
+    >
+
+    <link rel="icon" href="fotos/favicon.svg" type="image/svg+xml">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="viajes.css">
+    <script src="viajes.js" defer></script>
+</head>
+
+<body>
+
+    <!-- =====================================================
+         01. CABECERA Y NAVEGACIÓN
+    ====================================================== -->
+
+    <a class="skip-link" href="#contenido">
+        Saltar al contenido
     </a>
-    <button aria-controls="nav-principal" aria-expanded="false" aria-label="Abrir men&uacute;" class="menu-toggle" type="button">
-     <span>
-     </span>
-     <span>
-     </span>
-     <span>
-     </span>
-    </button>
-    <nav aria-label="Navegaci&oacute;n principal" class="main-nav" id="nav-principal">
-     <a class="" href="index.html">
-      <svg aria-hidden="true" class="ui-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24">
-       <path d="m3 10 9-7 9 7v10H3z">
-       </path>
-       <path d="M9 20v-7h6v7">
-       </path>
-      </svg>
-      <span>
-       Inicio
-      </span>
-     </a>
-     <a aria-current="page" class="active" href="viajes.html">
-      <svg aria-hidden="true" class="ui-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24">
-       <path d="M22 2 9 15M22 2l-7 20-4-9-9-4z">
-       </path>
-      </svg>
-      <span>
-       Viajes
-      </span>
-     </a>
-     <a class="" href="eventos.html">
-      <svg aria-hidden="true" class="ui-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24">
-       <rect height="16" rx="2" width="18" x="3" y="5">
-       </rect>
-       <path d="M7 3v4M17 3v4M3 10h18M8 14h3M8 18h3M15 14h2">
-       </path>
-      </svg>
-      <span>
-       Eventos
-      </span>
-     </a>
-     <a class="" href="catering.html">
-      <svg aria-hidden="true" class="ui-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24">
-       <path d="M3 19h18M5 17a7 7 0 0 1 14 0H5ZM12 10V7M10 7h4">
-       </path>
-      </svg>
-      <span>
-       Catering
-      </span>
-     </a>
-     <a class="" href="sobre-mi.html">
-      <svg aria-hidden="true" class="ui-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24">
-       <circle cx="12" cy="7" r="4">
-       </circle>
-       <path d="M4 21v-2a8 8 0 0 1 16 0v2">
-       </path>
-      </svg>
-      <span>
-       Sobre m&iacute;
-      </span>
-     </a>
-     <a class="" href="proyectos.html">
-      <svg aria-hidden="true" class="ui-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24">
-       <rect height="14" rx="2" width="18" x="3" y="7">
-       </rect>
-       <path d="M9 7V4h6v3M3 13h18">
-       </path>
-      </svg>
-      <span>
-       Proyectos
-      </span>
-     </a>
-     <a class="nav-contact" href="contacto.html">
-      <svg aria-hidden="true" class="ui-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24">
-       <rect height="14" rx="2" width="20" x="2" y="5">
-       </rect>
-       <path d="m3 7 9 7 9-7">
-       </path>
-      </svg>
-      <span>
-       Contacto
-      </span>
-     </a>
-    </nav>
-   </div>
-  </header>
-  <main id="contenido">
-   <section class="editorial-hero" style="background-image:url('https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1800')">
-    <div class="editorial-hero-inner">
-     <div class="eyebrow">
-      EXPLORA &middot; DESCUBRE &middot; VIAJA
-     </div>
-     <h1>
-      El mundo empieza con una idea de viaje.
-     </h1>
-     <p>
-      Destinos, cultura, naturaleza y experiencias. Una visi&oacute;n del turismo que nace en Castilla-La Mancha y mira hacia el mundo.
-     </p>
-     <p>
-      <a class="button" href="#destinos">
-       Explorar destinos
-      </a>
-     </p>
-    </div>
-   </section>
-   <section class="editorial-section" id="destinos">
-    <div class="editorial-wrap">
-     <div class="editorial-kicker">
-      INSPIRACI&Oacute;N PARA VIAJAR
-     </div>
-     <h2 class="editorial-title">
-      Tres formas de descubrir el mundo.
-     </h2>
-     <p class="editorial-lead">
-      Cada destino tiene una historia. Me interesa explorar propuestas de viaje que conecten lugares, personas y experiencias memorables.
-     </p>
-     <div class="editorial-grid">
-      <article class="editorial-card">
-       <img alt="Molinos de viento de Castilla-La Mancha" loading="lazy" src="fotos/molinos.jpg"/>
-       <div class="editorial-card-body">
-        <h3>
-         Castilla-La Mancha
-        </h3>
-        <p>
-         Molinos, patrimonio, pueblos con identidad, gastronom&iacute;a y rutas culturales desde nuestro territorio.
-        </p>
-       </div>
-      </article>
-      <article class="editorial-card">
-       <img alt="Destino europeo" loading="lazy" src="https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1800"/>
-       <div class="editorial-card-body">
-        <h3>
-         Espa&ntilde;a y Europa
-        </h3>
-        <p>
-         Escapadas urbanas, historia, costas mediterr&aacute;neas, ciudades emblem&aacute;ticas y rutas para descubrir a otro ritmo.
-        </p>
-       </div>
-      </article>
-      <article class="editorial-card">
-       <img alt="Paisaje de Machu Picchu, Per&uacute;" loading="lazy" src="https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1800"/>
-       <div class="editorial-card-body">
-        <h3>
-         Sudam&eacute;rica y el mundo
-        </h3>
-        <p>
-         Culturas, paisajes y experiencias internacionales, con especial inter&eacute;s por los destinos sudamericanos.
-        </p>
-       </div>
-      </article>
-     </div>
-    </div>
-   </section>
-   <section class="editorial-section editorial-muted">
-    <div class="editorial-wrap">
-     <div class="editorial-kicker">
-      EXPERIENCIAS
-     </div>
-     <h2 class="editorial-title">
-      No todos viajamos de la misma manera.
-     </h2>
-     <p class="editorial-lead">
-      El turismo ofrece muchas posibilidades. Estas son algunas de las modalidades que me interesa conocer y desarrollar profesionalmente.
-     </p>
-     <div class="editorial-grid">
-      <article class="editorial-card">
-       <img alt="Ciudad hist&oacute;rica europea" loading="lazy" src="https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1800"/>
-       <div class="editorial-card-body">
-        <h3>
-         Cultura y viajes en grupo
-        </h3>
-        <p>
-         Excursiones, rutas culturales, visitas y propuestas de viaje compartidas.
-        </p>
-       </div>
-      </article>
-      <article class="editorial-card">
-       <img alt="Piscina y espacio de descanso" loading="lazy" src="https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1800"/>
-       <div class="editorial-card-body">
-        <h3>
-         Bienestar y balnearios
-        </h3>
-        <p>
-         Escapadas para descansar, turismo termal y experiencias de bienestar.
-        </p>
-       </div>
-      </article>
-      <article class="editorial-card">
-       <img alt="Naturaleza y paisajes" loading="lazy" src="https://images.pexels.com/photos/167964/pexels-photo-167964.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1800"/>
-       <div class="editorial-card-body">
-        <h3>
-         Naturaleza y turismo activo
-        </h3>
-        <p>
-         Entornos rurales, senderismo, paisajes y actividades al aire libre.
-        </p>
-       </div>
-      </article>
-     </div>
-    </div>
-   </section>
-   <section class="editorial-section">
-    <div class="editorial-wrap editorial-split">
-     <img alt="Molinos de viento en Castilla-La Mancha" loading="lazy" src="fotos/molinos.jpg"/>
-     <div class="editorial-copy">
-      <div class="editorial-kicker">
-       NUESTRO PUNTO DE PARTIDA
-      </div>
-      <h2 class="editorial-title">
-       Castilla-La Mancha tiene mucho que contar.
-      </h2>
-      <p>
-       Desde Campo de Criptana y Consuegra hasta las Tablas de Daimiel, las Lagunas de Ruidera y los pueblos con encanto de nuestra tierra.
-      </p>
-      <p>
-       El turismo de proximidad ofrece oportunidades para crear rutas, excursiones y experiencias que ponen en valor el patrimonio local.
-      </p>
-      <p>
-       Mi inter&eacute;s es seguir aprendiendo sobre planificaci&oacute;n tur&iacute;stica y dise&ntilde;o de propuestas que acerquen estos destinos a nuevos visitantes.
-      </p>
-     </div>
-    </div>
-   </section>
-   <section class="editorial-cta">
-    <h2>
-     &iquest;Compartimos una idea de viaje?
-    </h2>
-    <p>
-     Un espacio para intercambiar propuestas y explorar colaboraciones profesionales en el &aacute;mbito tur&iacute;stico.
-    </p>
-    <a href="contacto.html">
-     Contactar conmigo
-    </a>
-   </section>
-  </main>
-  <footer class="site-footer">
-   <div class="container">
-    &copy; Ismael L&oacute;pez &middot; Proyecto de marca personal
-   </div>
-  </footer>
- </body>
+
+    <header class="site-header">
+
+        <div class="container header-inner">
+
+            <a
+                class="brand"
+                href="index.html"
+                aria-label="RUMBORIA - Inicio"
+            >
+                <img
+                    src="fotos/logo-rumboria.png"
+                    alt="RUMBORIA · Viajar · Saborear · Celebrar"
+                >
+            </a>
+
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Abrir menú"
+                aria-expanded="false"
+                aria-controls="nav-principal"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav
+                class="main-nav"
+                id="nav-principal"
+                aria-label="Navegación principal"
+            >
+
+                <a href="index.html">Inicio</a>
+
+                <a
+                    href="viajes.html"
+                    class="active"
+                    aria-current="page"
+                >
+                    Viajes
+                </a>
+
+                <a href="eventos.html">Eventos</a>
+                <a href="catering.html">Catering</a>
+                <a href="sobre-mi.html">Sobre Rumboria</a>
+                <a href="proyectos.html">Proyectos</a>
+
+                <a class="nav-contact" href="contacto.html">
+                    Contacto
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main id="contenido">
+
+        <!-- =================================================
+             02. CARRUSEL PRINCIPAL
+        ================================================== -->
+
+        <section
+            class="travel-hero"
+            aria-label="Paisajes de Castilla-La Mancha"
+            aria-roledescription="carrusel"
+        >
+
+            <div class="hero-track">
+
+                <!-- DIAPOSITIVA 1: GUADALAJARA -->
+
+                <article
+                    class="hero-slide is-active"
+                    aria-hidden="false"
+                    style="--slide-image: url('fotos/brihuega-lavanda.jpg');"
+                >
+
+                    <div class="hero-shade"></div>
+
+                    <div class="container slide-content">
+
+                        <p class="eyebrow">
+                            GUADALAJARA · CASTILLA-LA MANCHA
+                        </p>
+
+                        <h1>
+                            Guadalajara,<br>
+                            la gran desconocida.
+                        </h1>
+
+                        <p>
+                            Campos de lavanda, pueblos históricos
+                            y paisajes extraordinarios.
+                            Descubre una provincia que sorprende.
+                        </p>
+
+                        <a class="button" href="#guadalajara">
+                            Descubre Guadalajara
+                            <span aria-hidden="true">→</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- DIAPOSITIVA 2: CAMPO DE CRIPTANA -->
+
+                <article
+                    class="hero-slide"
+                    aria-hidden="true"
+                    style="--slide-image: url('fotos/molinos-portada.webp');"
+                >
+
+                    <div class="hero-shade"></div>
+
+                    <div class="container slide-content">
+
+                        <p class="eyebrow">
+                            CIUDAD REAL · CASTILLA-LA MANCHA
+                        </p>
+
+                        <h2>Campo de Criptana</h2>
+
+                        <p>
+                            Donde los molinos de viento
+                            siguen contando historias.
+                        </p>
+
+                        <a class="button" href="#destinos">
+                            Explorar destinos →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- DIAPOSITIVA 3: CUENCA -->
+
+                <article
+                    class="hero-slide"
+                    aria-hidden="true"
+                    style="--slide-image: url('fotos/cuenca.jpg');"
+                >
+
+                    <div class="hero-shade"></div>
+
+                    <div class="container slide-content">
+
+                        <p class="eyebrow">
+                            CUENCA · CASTILLA-LA MANCHA
+                        </p>
+
+                        <h2>Cuenca</h2>
+
+                        <p>
+                            Una ciudad suspendida entre
+                            historia, arte y naturaleza.
+                        </p>
+
+                        <a class="button" href="#destinos">
+                            Explorar destinos →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- DIAPOSITIVA 4: LAGUNAS DE RUIDERA -->
+
+                <article
+                    class="hero-slide"
+                    aria-hidden="true"
+                    style="--slide-image: url('fotos/ruidera.jpg');"
+                >
+
+                    <div class="hero-shade"></div>
+
+                    <div class="container slide-content">
+
+                        <p class="eyebrow">
+                            NATURALEZA · CASTILLA-LA MANCHA
+                        </p>
+
+                        <h2>Lagunas de Ruidera</h2>
+
+                        <p>
+                            Agua, naturaleza y paisajes
+                            que invitan a desconectar.
+                        </p>
+
+                        <a class="button" href="#experiencias">
+                            Descubrir experiencias →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- DIAPOSITIVA 5: TOLEDO -->
+
+                <article
+                    class="hero-slide"
+                    aria-hidden="true"
+                    style="--slide-image: url('fotos/toledo.jpg');"
+                >
+
+                    <div class="hero-shade"></div>
+
+                    <div class="container slide-content">
+
+                        <p class="eyebrow">
+                            TOLEDO · CASTILLA-LA MANCHA
+                        </p>
+
+                        <h2>Toledo</h2>
+
+                        <p>
+                            Un viaje por siglos de historia,
+                            cultura y patrimonio.
+                        </p>
+
+                        <a class="button" href="#destinos">
+                            Explorar destinos →
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <!-- CONTROLES DEL CARRUSEL -->
+
+            <button
+                class="carousel-arrow carousel-prev"
+                type="button"
+                aria-label="Paisaje anterior"
+            >
+                &#10094;
+            </button>
+
+            <button
+                class="carousel-arrow carousel-next"
+                type="button"
+                aria-label="Paisaje siguiente"
+            >
+                &#10095;
+            </button>
+
+            <div class="carousel-controls">
+
+                <button
+                    class="carousel-pause"
+                    type="button"
+                    aria-label="Pausar carrusel"
+                >
+                    Ⅱ
+                </button>
+
+                <div
+                    class="carousel-dots"
+                    aria-label="Seleccionar paisaje"
+                ></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             03. DESTINOS TURÍSTICOS
+        ================================================== -->
+
+        <section class="travel-section" id="destinos">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-kicker">
+                        INSPIRACIÓN PARA VIAJAR
+                    </p>
+
+                    <h2>
+                        Tres formas de descubrir el mundo.
+                    </h2>
+
+                    <p>
+                        Cada destino tiene una historia.
+                        Descubre lugares, culturas y experiencias
+                        que merecen ser vividas.
+                    </p>
+
+                </div>
+
+
+                <div class="travel-grid">
+
+                    <article class="travel-card">
+
+                        <div class="card-image">
+
+                            <img
+                                src="fotos/molinos-portada.webp"
+                                alt="Molinos de Castilla-La Mancha"
+                                loading="lazy"
+                            >
+
+                            <span class="card-tag">
+                                Proximidad
+                            </span>
+
+                        </div>
+
+                        <div class="card-content">
+
+                            <h3>Castilla-La Mancha</h3>
+
+                            <p>
+                                Molinos, pueblos con identidad,
+                                gastronomía, patrimonio y naturaleza.
+                            </p>
+
+                            <a href="#castilla">
+                                Descubrir más ↗
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="travel-card">
+
+                        <div class="card-image">
+
+                            <img
+                                src="https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg?auto=compress&amp;w=1200"
+                                alt="París, destino cultural europeo"
+                                loading="lazy"
+                            >
+
+                            <span class="card-tag">
+                                Cultura
+                            </span>
+
+                        </div>
+
+                        <div class="card-content">
+
+                            <h3>España y Europa</h3>
+
+                            <p>
+                                Ciudades históricas, escapadas,
+                                rutas culturales y destinos emblemáticos.
+                            </p>
+
+                            <a href="#experiencias">
+                                Descubrir más ↗
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="travel-card">
+
+                        <div class="card-image">
+
+                            <img
+                                src="https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&amp;w=1200"
+                                alt="Machu Picchu, Perú"
+                                loading="lazy"
+                            >
+
+                            <span class="card-tag">
+                                Horizontes
+                            </span>
+
+                        </div>
+
+                        <div class="card-content">
+
+                            <h3>Sudamérica y el mundo</h3>
+
+                            <p>
+                                Paisajes extraordinarios,
+                                culturas y experiencias internacionales.
+                            </p>
+
+                            <a href="contacto.html">
+                                Compartir una propuesta ↗
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             04. EXPERIENCIAS TURÍSTICAS
+        ================================================== -->
+
+        <section
+            class="travel-section section-muted"
+            id="experiencias"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-kicker">
+                        EXPERIENCIAS
+                    </p>
+
+                    <h2>
+                        No todos viajamos de la misma manera.
+                    </h2>
+
+                    <p>
+                        Cultura, bienestar y naturaleza.
+                        Diferentes formas de vivir un destino.
+                    </p>
+
+                </div>
+
+
+                <div class="travel-grid">
+
+                    <article class="travel-card">
+
+                        <div class="card-image">
+
+                            <img
+                                src="https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg?auto=compress&amp;w=1200"
+                                alt="Ciudad europea"
+                                loading="lazy"
+                            >
+
+                            <span class="card-tag">
+                                Cultura
+                            </span>
+
+                        </div>
+
+                        <div class="card-content">
+
+                            <h3>Cultura y viajes en grupo</h3>
+
+                            <p>
+                                Excursiones, visitas culturales,
+                                rutas históricas y experiencias compartidas.
+                            </p>
+
+                            <a href="contacto.html">
+                                Compartir una propuesta ↗
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="travel-card">
+
+                        <div class="card-image">
+
+                            <img
+                                src="https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&amp;w=1200"
+                                alt="Piscina de un espacio de bienestar"
+                                loading="lazy"
+                            >
+
+                            <span class="card-tag">
+                                Bienestar
+                            </span>
+
+                        </div>
+
+                        <div class="card-content">
+
+                            <h3>Bienestar y balnearios</h3>
+
+                            <p>
+                                Escapadas para descansar,
+                                turismo termal y experiencias de relajación.
+                            </p>
+
+                            <a href="contacto.html">
+                                Compartir una propuesta ↗
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="travel-card">
+
+                        <div class="card-image">
+
+                            <img
+                                src="https://images.pexels.com/photos/167964/pexels-photo-167964.jpeg?auto=compress&amp;w=1200"
+                                alt="Paisaje natural"
+                                loading="lazy"
+                            >
+
+                            <span class="card-tag">
+                                Naturaleza
+                            </span>
+
+                        </div>
+
+                        <div class="card-content">
+
+                            <h3>Naturaleza y turismo activo</h3>
+
+                            <p>
+                                Senderismo, entornos rurales,
+                                paisajes y actividades al aire libre.
+                            </p>
+
+                            <a href="contacto.html">
+                                Compartir una propuesta ↗
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             05. GUADALAJARA: LA GRAN DESCONOCIDA
+        ================================================== -->
+
+        <section
+            class="travel-section guadalajara-section"
+            id="guadalajara"
+        >
+
+            <div class="container regional-grid">
+
+                <div class="regional-image">
+
+                    <img
+                        src="fotos/brihuega-lavanda.jpg"
+                        alt="Campos de lavanda de Briphuega, Guadalajara"
+                        loading="lazy"
+                    >
+
+                </div>
+
+                <div class="regional-copy">
+
+                    <p class="section-kicker">
+                        DESCUBRE GUADALAJARA
+                    </p>
+
+                    <h2>
+                        Guadalajara,<br>
+                        la gran desconocida.
+                    </h2>
+
+                    <p>
+                        Una provincia sorprendente donde la
+                        naturaleza, la historia y la cultura
+                        se encuentran.
+                    </p>
+
+                    <p>
+                        Desde los campos de lavanda de Brihuega
+                        hasta Sigüenza, Pastrana, Molina de Aragón,
+                        los pueblos de la Arquitectura Negra
+                        y los paisajes del Alto Tajo.
+                    </p>
+
+                    <p>
+                        Guadalajara merece ser descubierta,
+                        disfrutada y compartida.
+                    </p>
+
+                    <a class="text-link" href="contacto.html">
+                        Hablemos de Guadalajara ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             06. CASTILLA-LA MANCHA
+        ================================================== -->
+
+        <section
+            class="travel-section section-muted"
+            id="castilla"
+        >
+
+            <div class="container regional-grid">
+
+                <div class="regional-image">
+
+                    <img
+                        src="fotos/molinos-contacto.webp"
+                        alt="Molinos de Castilla-La Mancha"
+                        loading="lazy"
+                    >
+
+                </div>
+
+                <div class="regional-copy">
+
+                    <p class="section-kicker">
+                        NUESTRO PUNTO DE PARTIDA
+                    </p>
+
+                    <h2>
+                        Castilla-La Mancha tiene mucho que contar.
+                    </h2>
+
+                    <p>
+                        Desde Campo de Criptana y Consuegra
+                        hasta las Lagunas de Ruidera,
+                        las Tablas de Daimiel y los pueblos
+                        con encanto de nuestra tierra.
+                    </p>
+
+                    <p>
+                        Un territorio lleno de oportunidades
+                        para el turismo cultural, rural,
+                        gastronómico y de naturaleza.
+                    </p>
+
+                    <a class="text-link" href="contacto.html">
+                        Hablemos de turismo ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             07. CONTACTO
+        ================================================== -->
+
+        <section class="travel-cta">
+
+            <div class="container">
+
+                <p class="section-kicker">
+                    HABLEMOS
+                </p>
+
+                <h2>
+                    ¿Compartimos una idea de viaje?
+                </h2>
+
+                <p>
+                    Un espacio para intercambiar propuestas
+                    y explorar colaboraciones profesionales
+                    en el ámbito turístico.
+                </p>
+
+                <a class="button" href="contacto.html">
+                    Contactar conmigo →
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         08. PIE DE PÁGINA
+    ====================================================== -->
+
+    <footer class="site-footer">
+
+        <div class="container footer-grid">
+
+            <div class="footer-brand">
+
+                <img
+                    src="fotos/logo-rumboria.png"
+                    alt="RUMBORIA"
+                >
+
+                <p>
+                    Viajar · Saborear · Celebrar
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3>Navegación</h3>
+
+                <a href="index.html">Inicio</a>
+                <a href="viajes.html">Viajes</a>
+                <a href="eventos.html">Eventos</a>
+                <a href="catering.html">Catering</a>
+                <a href="sobre-mi.html">Sobre Rumboria</a>
+
+            </div>
+
+            <div>
+
+                <h3>Contacto</h3>
+
+                <a href="contacto.html">
+                    Formulario de contacto
+                </a>
+
+                <p>
+                    Castilla-La Mancha, España
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3>RUMBORIA</h3>
+
+                <p>
+                    Turismo, eventos y catering.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <div class="container footer-bottom-inner">
+
+                <small>
+                    © <span id="year">2026</span>
+                    RUMBORIA · Proyecto personal de Ismael López.
+                </small>
+
+                <div>
+                    <a href="legal/aviso-legal.html">
+                        Aviso legal
+                    </a>
+
+                    <a href="legal/privacidad.html">
+                        Privacidad
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
 </html>
